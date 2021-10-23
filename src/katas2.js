@@ -37,7 +37,7 @@ function power(x, n) {
    n = (n < 0) ? -n : n;
 
    for (let i = 1; i <= n; i++) {
-      potencia = multiply(potencia, multiply(x, 1));
+      potencia = multiply(potencia, x);
    }
 
    
