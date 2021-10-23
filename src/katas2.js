@@ -15,7 +15,7 @@ function multiply(a, b) {
    a = (a < 0) ? a = -a : a;
 
    for (let i = 1; i <= a; i++) {
-      sum = add(sum, add(0, b));
+      sum = add(sum, b);
    }
 
    sum = (aux < 0) ? sum = -sum : sum;
